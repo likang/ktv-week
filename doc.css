@@ -1,0 +1,124 @@
+.wk-ktvwrapper {
+    font-size: 12px;
+    font-family: Arial,sans-serif;
+    color: #555;
+    font-weight: normal !important;
+}
+.wk-border {
+    border-bottom: 1px solid #ddd;
+    margin-right: 16px;
+}
+.wk-mainwrapper, .wk-topwrapper {
+    position: relative;
+}
+.wk-topwrapper {
+    background-color: #fff;
+    z-index: 1;
+}
+.wk-dayname {
+    font-weight: normal;
+    padding: 4px;
+}
+.wk-weektop {
+    table-layout: fixed;
+    width: 100%;
+}
+.wk-timeprices {
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+    table-layout: fixed;
+    width: 100%;
+    margin-top: -1px;
+}
+.wk-spanningwrapper{
+    margin: 1px 0 0 1px;
+    position: relative;
+}
+.wk-hourmarkers {
+    position: absolute;
+    width: 100%;
+}
+/*.wk-chipspanningwrapper {
+    line-height: 0;
+    margin: 0 10px 0 1px;
+    z-index: 1;
+}
+*/.wk-markercell {
+    /*border-top: 1px solid #ddd;*/
+    height: 42px;
+    /*font-size: 1px;*/
+}
+.wk-dualmarker {
+/*border-bottom: 1px dotted #ddd;*/
+border-top: 1px solid #ddd;
+font-size: 1px;
+height: 20px;
+margin-bottom: 20px;
+}
+.wk-times-pri {
+    border-left: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+}
+.wk-time-pri {
+    height:41px;
+    border-bottom:1px solid #ddd;
+    padding-right:2px;
+    text-align: right;
+}
+.wk-time-pri-last {
+    border-bottom:none;
+}
+.wk-col {
+    border-left: 1px solid #ddd;
+    vertical-align: top;
+}
+.wk-col-pricewrapper {
+    position: relative;
+    cursor: default;
+    height:588px;
+    margin-bottom:-588px;
+}
+.wk-pricecells {
+    position: absolute;
+    top: 0;
+    left: 60px;
+}
+.wk-pricecell {
+    position: absolute;
+    width: 90px;
+    height: 32px;
+    line-height: 32px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+.wk-pricecell-amethyst{
+    background-color: #9b59b6;
+}
+.wk-pricecell-carrot{
+    background-color: #e67e22;
+}
+.wk-pricecell-alizarin {
+    background-color: #e74c3c;
+}
+.wk-pricecell-emerland {
+    background-color: #2ecc71;
+}
+
+.wk-pagination a {
+    color: #555;
+    text-decoration: none;
+}
+.wk-pagination ul {
+    margin-left: 0;
+    padding: 0;
+}
+.wk-pagination ul > li {
+    display: inline;
+    padding: 0px 10px;
+    border-left: 1px solid #ddd;
+}
+.wk-pagination .previous {
+    border-left: none;
+}
