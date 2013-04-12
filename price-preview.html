@@ -7,119 +7,15 @@
     </head>
     <body>
         <div class="wk-ktvwrapper" id="wk-ktvwrapper">
-            <div class="wk-pagination">
-                <div class="wk-topLeftNav">
-                    <table  cellpadding="0" cellspacing="0"> 
-                        <tr> 
-                            <td><div class="wk-button">本周</div></td> 
-                            <td><div class="wk-button wk-button-previous">&lt;</div></td> 
-                            <td><div class="wk-button wk-button-next">&gt;</div></td> 
-                        </tr> 
-                    </table>
-                </div>
-                <div class="wk-topRightNav">
-                    <table> <tr> <td><div class="wk-button">添加</div></td> </tr> </table>
-                </div>
-            </div>
-            <div class="wk-topwrapper">
-                <table class="wk-weektop" cellpadding="0" cellspacing="0">
-                    <tbody>
-                        <tr class="wk-daynames">
-                            <td style="width:60px;">&nbsp;</td>
-                            <th> <div class="wk-dayname" id="wk-dayname-1"></div> </th>
-                            <th> <div class="wk-dayname" id="wk-dayname-2"></div> </th>
-                            <th> <div class="wk-dayname" id="wk-dayname-3"></div> </th>
-                            <th> <div class="wk-dayname" id="wk-dayname-4"></div> </th>
-                            <th> <div class="wk-dayname" id="wk-dayname-5"></div> </th>
-                            <th> <div class="wk-dayname" id="wk-dayname-6"></div> </th>
-                            <th> <div class="wk-dayname" id="wk-dayname-7"></div> </th>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <div class="wk-mainwrapper" style="margin-top:0px;">
-                <table class="wk-timeprices" cellpadding="0" cellspacing="0">
-                    <tbody >
-                        <!--行-->
-                        <tr height="1">
-                            <td style="width:60px;"></td>
-                            <td colspan="7">
-                                <div class="wk-spanningwrapper">
-                                    <div class="wk-hourmarkers">
-                                        <div class="wk-markercell"> <div class="wk-dualmarker"></div> </div>
-                                        <div class="wk-markercell"> <div class="wk-dualmarker"></div> </div>
-                                        <div class="wk-markercell"> <div class="wk-dualmarker"></div> </div>
-                                        <div class="wk-markercell"> <div class="wk-dualmarker"></div> </div>
-                                        <div class="wk-markercell"> <div class="wk-dualmarker"></div> </div>
-                                        <div class="wk-markercell"> <div class="wk-dualmarker"></div> </div>
-                                        <div class="wk-markercell"> <div class="wk-dualmarker"></div> </div>
-                                        <div class="wk-markercell"> <div class="wk-dualmarker"></div> </div>
-                                        <div class="wk-markercell"> <div class="wk-dualmarker"></div> </div>
-                                        <div class="wk-markercell"> <div class="wk-dualmarker"></div> </div>
-                                        <div class="wk-markercell"> <div class="wk-dualmarker"></div> </div>
-                                        <div class="wk-markercell"> <div class="wk-dualmarker"></div> </div>
-                                        <div class="wk-markercell"> <div class="wk-dualmarker"></div> </div>
-                                        <div class="wk-markercell"> <div class="wk-dualmarker"></div> </div>
-                                        <div class="wk-markercell"> <div class="wk-dualmarker"></div> </div>
-                                    </div>
-                                </div>
-                                <div class="wk-spanningwrapper wk-chipspanningwrapper"></div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <!-- 时间 -->
-                            <td class="wk-times-pri">
-                                <div style="height:42px;"> <div class="wk-time-pri">09:00</div> </div>
-                                <div style="height:42px;"> <div class="wk-time-pri">10:00</div> </div>
-                                <div style="height:42px;"> <div class="wk-time-pri">11:00</div> </div>
-                                <div style="height:42px;"> <div class="wk-time-pri">12:00</div> </div>
-                                <div style="height:42px;"> <div class="wk-time-pri">13:00</div> </div>
-                                <div style="height:42px;"> <div class="wk-time-pri">14:00</div> </div>
-                                <div style="height:42px;"> <div class="wk-time-pri">15:00</div> </div>
-                                <div style="height:42px;"> <div class="wk-time-pri">16:00</div> </div>
-                                <div style="height:42px;"> <div class="wk-time-pri">17:00</div> </div>
-                                <div style="height:42px;"> <div class="wk-time-pri">18:00</div> </div>
-                                <div style="height:42px;"> <div class="wk-time-pri">19:00</div> </div>
-                                <div style="height:42px;"> <div class="wk-time-pri">20:00</div> </div>
-                                <div style="height:42px;"> <div class="wk-time-pri">21:00</div> </div>
-                                <div style="height:42px;"> <div class="wk-time-pri">22:00</div> </div>
-                                <div style="height:42px;"> <div class="wk-time-pri wk-time-pri-last">23:00</div> </div>
-                            </td>
-                            <!-- 7 列 周一到周日 -->
-                            <td class="wk-col"> <div class="wk-col-pricewrapper"></div> </td>
-                            <td class="wk-col"> <div class="wk-col-pricewrapper"></div> </td>
-                            <td class="wk-col"> <div class="wk-col-pricewrapper"></div> </td>
-                            <td class="wk-col"> <div class="wk-col-pricewrapper"></div> </td>
-                            <td class="wk-col"> <div class="wk-col-pricewrapper"></div> </td>
-                            <td class="wk-col"> <div class="wk-col-pricewrapper"></div> </td>
-                            <td class="wk-col"> <div class="wk-col-pricewrapper"></div> </td>
-                        </tr>
-                    </tbody>
-                </table>
-                <!-- 价格 -->
-                <div class="wk-pricecells" id="wk-pricecells">
-<!--                     <div class="wk-pricecell wk-pricecell-emerland" data-price="￥20.00" style="top:5px;left:405px">￥50.00</div>
-                    <div class="wk-pricecell wk-pricecell-emerland" data-price="￥20.00" style="top:5px;left:505px">￥50.00</div>
-                    <div class="wk-pricecell wk-pricecell-amethyst" data-price="￥30.00" style="top:215px;left:205px">￥30.00</div>
-                    <div class="wk-pricecell wk-pricecell-amethyst" data-price="￥30.00" style="top:215px;left:305px">￥30.00</div>
-                    <div class="wk-pricecell wk-pricecell-amethyst" data-price="￥30.00" style="top:215px;left:405px">￥30.00</div>
-                    <div class="wk-pricecell wk-pricecell-amethyst" data-price="￥30.00" style="top:257px;left:205px">￥30.00</div>
-                    <div class="wk-pricecell wk-pricecell-amethyst" data-price="￥30.00" style="top:257px;left:305px">￥30.00</div>
-                    <div class="wk-pricecell wk-pricecell-amethyst" data-price="￥30.00" style="top:257px;left:405px">￥30.00</div>
-                    <div class="wk-pricecell wk-pricecell-amethyst" data-price="￥30.00" style="top:299px;left:205px">￥30.00</div>
-                    <div class="wk-pricecell wk-pricecell-amethyst" data-price="￥30.00" style="top:299px;left:305px">￥30.00</div>
-                    <div class="wk-pricecell wk-pricecell-amethyst" data-price="￥30.00" style="top:299px;left:405px">￥30.00</div>
-                    <div class="wk-pricecell wk-pricecell-carrot" data-price="￥50.00" data-color="carrot" style="top:341px;left:405px">￥50.00</div>
-                    <div class="wk-pricecell wk-pricecell-carrot" data-price="￥50.00" data-color="carrot" style="top:383px;left:405px">￥50.00</div>
-                    <div class="wk-pricecell wk-pricecell-carrot" data-price="￥50.00" data-color="carrot" style="top:425px;left:405px">￥50.00</div>
-                    <div class="wk-pricecell wk-pricecell-carrot" data-price="￥50.00" data-color="carrot" style="top:341px;left:505px">￥50.00</div>
-                    <div class="wk-pricecell wk-pricecell-carrot" data-price="￥50.00" data-color="carrot" style="top:383px;left:505px">￥50.00</div>
-                    <div class="wk-pricecell wk-pricecell-carrot" data-price="￥50.00" data-color="carrot" style="top:425px;left:505px">￥50.00</div>
- -->                </div>
-            </div>
         </div>
+
         <script language="javaScript" src="jquery-min.js"></script>
         <script language="javaScript" src="xdate.js"></script>
-        <script type="text/javascript" src="javascript.js"></script>
+        <script type="text/javascript" src="ktvweek.js"></script>
+        <script type="text/javascript">
+            $(function () {
+                var ktvWeek = KTVWeek({wrapperId:"wk-ktvwrapper", dataUrl:"./data.json", addLink:"/cde", startDay:new Date()});
+            });
+        </script>
     </body>
 </html>

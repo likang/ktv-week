@@ -33,7 +33,7 @@
     border-right: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
     table-layout: fixed;
-    height: 632px;
+    height: 640px;
     width: 100%;
     margin-top: -1px;
 }
@@ -45,29 +45,21 @@
     position: absolute;
     width: 100%;
 }
-/*.wk-chipspanningwrapper {
-    line-height: 0;
-    margin: 0 10px 0 1px;
-    z-index: 1;
-}
-*/.wk-markercell {
-    /*border-top: 1px solid #ddd;*/
-    height: 42px;
-    /*font-size: 1px;*/
+.wk-markercell {
+    height: 40px;
 }
 .wk-dualmarker {
-/*border-bottom: 1px dotted #ddd;*/
-border-top: 1px solid #ddd;
-font-size: 1px;
-height: 20px;
-margin-bottom: 20px;
+    border-top: 1px solid #ddd;
+    font-size: 1px;
+    height: 19px;
+    margin-bottom: 19px;
 }
 .wk-times-pri {
     border-left: 1px solid #ddd;
     border-top: 1px solid #ddd;
 }
 .wk-time-pri {
-    height:41px;
+    height:39px;
     border-bottom:1px solid #ddd;
     padding-right:2px;
     text-align: right;
@@ -82,8 +74,8 @@ margin-bottom: 20px;
 .wk-col-pricewrapper {
     position: relative;
     cursor: default;
-    height:630px;
-    margin-bottom:-630px;
+    height:640px;
+    margin-bottom:-640px;
 }
 .wk-pricecells {
     position: absolute;
@@ -93,8 +85,8 @@ margin-bottom: 20px;
 .wk-pricecell {
     position: absolute;
     width: 90px;
-    height: 32px;
-    line-height: 32px;
+    height: 30px;
+    line-height: 30px;
     color: #fff;
     text-align: center;
     z-index: 10;
@@ -128,18 +120,20 @@ margin-bottom: 20px;
     right: 0;
 }
 .wk-button {
-    background: #f3f3f3;
+    background-color: #f3f3f3;
     border: 1px solid #dcdcdc;
     border: 1px solid rgba(0,0,0,0.1);
     color: #444;
     cursor: pointer;
-    pointer-events: none;
-    height: 27px;
-    line-height: 27px;
-    padding: 0 8px;
+
+    padding: 6px 8px;
     outline: none;
     font-size: 14px;
     text-align: center;
+    display: inline-block;
+}
+a.wk-button {
+    text-decoration: none;
 }
 .wk-button-disabled {
     background: #f2f2f2;
